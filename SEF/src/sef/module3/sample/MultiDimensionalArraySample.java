@@ -3,6 +3,7 @@ package sef.module3.sample;
 public class MultiDimensionalArraySample {
 	public static void main(String[] args) {
 
+	
 		// Multi-dimensional array declaration sample
 		// Declaring an integer array with 2 dimensions
 		int[][] myIntegerGrid;
@@ -29,6 +30,7 @@ public class MultiDimensionalArraySample {
 				{ { "String 2", "String 3" }, { "String 3", "String 4" } },
 				{ { "String 4", "String 5" }, { "String 5", "String 6" } } };
 
+		
 		/*
 		 * Multi-dimensional arrays can do all the things a single dimensional
 		 * array can do it might be a little confusing at first, but you can

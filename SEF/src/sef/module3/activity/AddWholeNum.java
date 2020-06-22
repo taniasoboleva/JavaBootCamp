@@ -8,6 +8,7 @@ package sef.module3.activity;
  *
  */
 public class AddWholeNum {
+	
 
 	/**
 	 * @param args
@@ -24,7 +25,6 @@ public class AddWholeNum {
 		total = total + i;
 		}
 		System.out.println("Addition of Whole Numbers from 50 to 100 = " + total);
-
 
 	}
 

@@ -8,7 +8,8 @@ package sef.module3.activity;
  *
  */
 public class Calculator {
-		
+	
+	
 	public static void main(String[] args) {
 		
 	int x = 10;
@@ -24,7 +25,7 @@ public class Calculator {
 	}
 
 
-	private static int add(int x, int y) {
+	static int add(int x, int y) {
 		int sum = x + y;
 		return sum;
 	}
@@ -32,13 +33,17 @@ public class Calculator {
 	private static int subtract(int x, int y) {
 		int diff = 0;
 		if (x > y) {
+			diff = x - y;
 			// complete the code
 		} else {
+			 diff = y - x;
 			// complete the code
-		}
-
-		return diff;
-	}
+			 return diff; }
+			
+			return diff; 
+			}
+		
+	
 
 	private static int multiply(int[] numbers) {
 		int temp = 1;
@@ -54,8 +59,10 @@ public class Calculator {
 		int divValue = 0;
 		if (x == 0 || y == 0) {
 			// complete the code
+			divValue = 0;
 		} else {
 			// complete the code
+			divValue = x/y;
 		}
 		return divValue;
 

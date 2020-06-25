@@ -6,6 +6,8 @@ public class Employee_I  {
 	//Attributes
 	private int salary;
 	private String title;
+	private String name;
+	private int age;
 	
 	//Behavior - write default constructor. Print 'I'm an Employee_I Constructor'
 	public Employee_I(){ 
@@ -13,7 +15,7 @@ public class Employee_I  {
 	}
 	
 	// write getter for int salary
-	public int getSalary() {
+	public double getSalary() {
 		return salary ;
 	}
 	
@@ -26,14 +28,25 @@ public class Employee_I  {
 			return title;
 		}
 	
-	// write setter for String title
-	
-public void setTitle(String title) {
+		public void setTitle(String title) {
 	this.title = title;
 }
+		public String getName() {
+			return name;
+		}
+		public void setName(String name) {
+			this.name = name;
+		}
 
-public void announce(){
-	super.announce();  // calls announce() method of Person class
-	System.out.println("Inside Person Class");
+		
+		public int getAge() {
+			return age;
+		}
 
+		
+// write setter for int age
+			public void setAge(int age) {
+				this.age = age;
+			}	
+			
 }

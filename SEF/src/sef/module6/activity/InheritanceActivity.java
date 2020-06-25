@@ -17,11 +17,11 @@ public class InheritanceActivity {
 		//Create Employee object e and 
 		// set salary as 70000, title as Developer, age as 32 and name as Shawn Cun
 		
-		Empoyee_I e = new Empoyee_I () ;
+		Employee_I e = new Employee_I () ;
 		e.setSalary(70000);
 		e.setTitle("Developer");
-		e.setAge(32);
-		e.setName("Shawn Cun");
+		e.setAge (32);
+		e.setName ("Shawn Cun");
 		
 		// Print Info using Employee object
 		System.out.println("-----------------------------");
@@ -35,9 +35,7 @@ public class InheritanceActivity {
 		System.out.println("-----------------------------");
 		System.out.println("Person's Name is    : " + p.getName());
 		System.out.println("Person's Age is     : " + p.getAge());
-		s.announce();
-			
-		
+	
 	}
 
 }

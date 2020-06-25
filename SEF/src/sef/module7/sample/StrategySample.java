@@ -9,6 +9,7 @@ public class StrategySample {
 		Strategy s1 = new StrategyImplOne();
 		Strategy s2 = new StrategyImplTwo();
 		
+		
 		General g = new General("John Doe");
 		
 		//Instead of creating subclasses of 'General' with different strategies
